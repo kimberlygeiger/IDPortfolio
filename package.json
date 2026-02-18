@@ -1,0 +1,29 @@
+{
+  "name": "idportfolio",
+  "version": "2.0.0",
+  "description": "Kimberly Baker - Professional Portfolio Website",
+  "main": "index.html",
+  "keywords": [
+    "instructional-design",
+    "educational-content",
+    "teacher-resources",
+    "portfolio"
+  ],
+  "author": "Kimberly Baker <kimberlystarrbaker@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "serve": "python3 -m http.server 8000",
+    "validate": "npm run validate:html && npm run validate:css",
+    "validate:html": "echo 'Use W3C HTML Validator: https://validator.w3.org/'",
+    "validate:css": "echo 'Use W3C CSS Validator: https://jigsaw.w3.org/css-validator/'",
+    "test:a11y": "echo 'Use axe DevTools browser extension or https://www.w3.org/WAI/test-evaluate/'"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.0"
+  },
+  "browserslist": [
+    "last 2 years",
+    "not dead",
+    "> 1%"
+  ]
+}

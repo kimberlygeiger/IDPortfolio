@@ -1,0 +1,18 @@
+# Git ignore patterns
+node_modules/
+dist/
+build/
+.cache/
+*.log
+.DS_Store
+.env
+.env.local
+*.swp
+*.swo
+*~
+.vscode/settings.json
+
+# Backup and legacy files (can be removed after refactor complete)
+*-old.html
+*-backup.*
+index-old.html
